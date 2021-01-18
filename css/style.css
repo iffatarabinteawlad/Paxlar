@@ -1,0 +1,2013 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.btn-secondary {
+	color: #fff;
+	background-color: #ff9b1a;
+	border-color: #ff9b1a;
+	border-radius: 22px;
+	margin-left: 26px;
+    padding: 8px 16px;
+    font-weight: 401;
+}
+.btn-secondary:hover {
+	color: #ff9b1a;
+	background-color: #fff;
+	border-color:  #ff9b1a;
+}
+.btn-light {
+	color: #fff;
+	background-color: transparent;
+	border-color: #8e8e8e;
+	border-radius: 20px;
+	padding: 10px 28px;
+}
+.btn-light:hover{
+    background-color: #8e8e8e;
+    color: #000;
+}
+/* ****************************** header-section **************************************** */
+.top-header{
+    width: 100%;
+    background-color: #efefef;
+    padding: 20px 0px;
+}
+.top-header .navbar-light .navbar-brand {
+	color: #7f7f7f;
+	font-size: 14px;
+}
+.top-header .navbar-light .navbar-nav .nav-link {
+	color: #7f7f7f;
+    font-size: 14px;
+    margin-left: 33px;
+}
+.top-header .navbar-light .navbar-nav .nav-link:hover {
+	color: #ff9b1a;
+}
+.main-header{
+    width: 100%;
+    padding: 40px 0px;
+}
+.main-header .navbar-light .navbar-nav .nav-link {
+	color: #000;
+	font-size: 16px;
+    margin-left: 8px;
+    font-weight: 401;
+}
+.main-header .navbar-light .navbar-nav .nav-link:hover {
+	color: #ff9b1a;
+}
+/* ****************************** banner-section **************************************** */
+.banner-section{
+    width: 100%;
+    background: url("../images/banner.png") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    background-color: #1f1f25;
+    background-blend-mode: color-dodge;
+    padding: 170px 0px;
+    text-align: center;
+}
+.banner-section h1{
+    font-size: 52px;
+    padding-bottom:65px;
+}
+.banner-section p{
+    font-size: 14px;
+    padding-bottom:65px ;
+}
+.banner-section h6{
+    font-size: 20px;
+}
+/* ****************************CARD section********************************* */
+.CardSection{
+    width: 100%;
+    text-align: center;
+    padding: 72px 0px;
+}
+.CardSection .cardInner{
+    border: 1px solid #e1e1e1;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+.CardSection .cardInner:hover{
+    color: #fff !important;
+    background: linear-gradient(#f0c509f0, #e162028c), url(../images/2.png) center center no-repeat;
+    background-size: cover;
+    background-blend-mode: inherit;
+}
+.cardInner img{
+    width: 80px;
+}
+.cardInner h5{
+    font-size: 17px;
+    padding-top: 32px;
+    line-height: 27px;
+}
+.cardInner p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 32px;
+}
+/* ****************************service section********************************* */
+.ServiceSection{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 80px;
+}
+.ServiceSection h1{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    padding-bottom: 14px;
+    color: #2b2b2b;
+}
+.ServiceSection h4{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; 
+    padding: 10px 0px;
+    color: #2b2b2b;
+}
+.ServiceSection p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #929292;
+}
+.ServiceSection .line{
+    background-color: #ff9b1a;
+    width: 7%;
+    height: 2px;
+    margin: auto;
+}
+.ServiceSection .CardInner{
+    padding: 78px 0px;
+}
+/* **************************** simple section ******************************* */
+.SimpleSection{
+    width: 100%;
+}
+.SimpleSection .SomplePhoneSection{
+    background: url("../images/bitcoin-3024279.png") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    background-color: #00000082;
+    background-blend-mode: color;
+}
+.SomplePhoneSection .SimplePhone{
+    position: relative;
+    padding-top: 124px;
+}
+.SomplePhoneSection .PhnLogo{
+    position: absolute;
+    top: 68%;
+    left: 20%;
+}
+.SomplePhoneSection h4{
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.SomplePhoneSection .line{
+    background-color: #ff9b1a;
+    width: 12%;
+    height: 2px;
+    margin-bottom: 50px;
+
+}
+.SomplePhoneSection h6{
+    font-size: 18px;
+    line-height: 28px;
+}
+.SomplePhoneSection p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+.SimpleSection .SimpleNumber{
+    width: 100%;
+    background-color: #ff9b1a;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+}
+.SimpleNumber h1{
+    font-size: 42px;
+    line-height: 38px;
+}
+.SimpleNumber p{
+    font-size: 16px;
+    line-height: 26px;
+}
+/* ********************* octopus section *********************************** */
+.OctopusSection{
+    width: 100%;
+    padding: 50px 0px;
+}
+.OctopusSection .OctopusInner{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 80px 0px;
+}
+.OctopusSection .OctopusChild1{
+    position: absolute;
+    top: 7%;
+    left: 20%;
+}
+.OctopusSection .OctopusChild2{
+    position: absolute;
+    top: 41%;
+    left: 14%;
+}
+.OctopusSection .OctopusChild3{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+.OctopusSection .OctopusChild4{
+    position: absolute;
+    top: 7%;
+    right: 20%;
+}
+.OctopusSection .OctopusChild5{
+    position: absolute;
+    top: 41%;
+    right: 14%;
+}
+.OctopusSection .OctopusChild6{
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+}
+/* ********************** our team experts section ******************* */
+.experts{
+    width: 100%;
+    padding: 20px 0px 80px;
+    text-align: center;
+}
+.experts h1{
+    font-size:22px;
+    line-height: 32px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+.experts p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7f7f7f;
+    padding-bottom: 15px;
+}
+.experts h5{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 36px 0px 8px;
+    color: #1e1e1e;
+}
+.experts span{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ff9b1a;
+}
+.experts .line{
+    background-color: #ff9b1a;
+    width: 7%;
+    height: 2px;
+    margin:auto;
+}
+.experts img{
+    padding: 80px 0px 0px;
+}
+/* •••••••••••••••••••••••••• free consultation section ••••••••••••••••••••• */
+.consultation{
+    width: 100%;
+    background: url("../images/Image.png") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0px;
+}
+.consultation h1{
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+.consultation .line{
+    background-color: #ff9b1a;
+    width: 7%;
+    height: 2px;
+    margin:auto;
+}
+.consultation .form-control {
+	padding: 0.375rem 0.75rem;
+	color: #fff;
+	background-color: transparent;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 9px;
+	margin-bottom: 28px;
+}
+.consultation ::placeholder { 
+    color: #fff;
+  }
+.consultation .input{
+    padding-top: 50px;
+}
+/* –––––––––––––––––––––––––––––– our blogs section ––––––––––––––––––––––––– */
+.blogs{
+    width: 100%;
+    padding: 70px 0px;
+}
+.blogs h1{
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.blogs h5{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7f7f7f;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+.blogs .line{
+    background-color: #ff9b1a;
+    width: 7%;
+    height: 2px;
+    margin:auto;
+}
+.blogs .cardSection{
+    margin: 85px 0px 0px;
+    position: relative;
+}
+.cardSection .PencilIcon{
+    position: absolute;
+    left: 15px;
+    bottom: 41%;
+}
+.cardSection span{
+    font-size: 12px;
+    line-height: 24px;
+    color: #7f7f7f;
+}
+.cardSection h6{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 17px;
+}
+.cardSection p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7f7f7f;
+    padding: 0px 17px 20px;
+}
+/* •••••••••••••••••••••••••• feedback from investors section •••••••••••••• */
+.feedback{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.feedback h1{
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.feedback .line{
+    background-color: #ff9b1a;
+    width: 7%;
+    height: 2px;
+    margin:auto;
+}
+.feedback p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7f7f7f;
+    padding: 30px 0px 80px;
+}
+.feedback .FeedbackImage{
+    position: relative;
+}
+.feedback .feedbackIcon{
+    position: absolute;
+    top: 67px;
+    left: 570px;
+}
+.feedback .carousel-control-prev, .carousel-control-next {
+	color: #6e6969;
+	text-align: center;
+}
+.feedback .carousel-control-prev:hover, .carousel-control-prev:focus, .carousel-control-next:hover, .carousel-control-next:focus {
+	color: #ff9b1a;
+}
+.feedback h5{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 0px 0px;
+}
+.feedback h6{
+    text-transform: uppercase;
+    color: #ff9b1a;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* .–––––––––––––––––––––––––––––– footersection –––––––––––––––––––––––––––––– */
+.footer{
+    width: 100%;
+    border-top: 4px solid #ff9b1a;
+    background-color: #000;
+}
+/* .FooterTop */
+.footer .FooterTop{
+    padding: 80px 0px;
+}
+.FooterTop img{
+    padding-bottom: 55px;
+}
+.FooterTop p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #7f7f7f;
+    margin-bottom: 6px !important;
+}
+.FooterTop p span{
+    margin-right: 12px;
+}
+.FooterTop ul{
+    display: inline-block;
+    padding: 0px !important;
+    margin-top: 44px;
+}
+.FooterTop ul li{
+    display: inline;
+    border: 1px solid #6e6969;
+    border-radius: 50%;
+    padding: 20px 12px 12px 13px;  
+}
+.FooterTop ul li:hover{
+    border: 1px solid #00aced; 
+}
+.FooterTop ul li a{
+    color: #7f7f7f; 
+}
+.FooterTop ul li a:hover{
+    color: #00aced;
+}
+.FooterTop h2{
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    color: #fff;
+}
+.FooterTop .line{
+    background-color: #ff9b1a;
+    width: 18%;
+    height: 2px;
+    margin-bottom: 40px;
+}
+.FooterTop a{
+    color: #7f7f7f;
+}
+.FooterTop a:hover{
+    color: #ff9b1a;
+}
+.FooterTop .footerInput{
+    position: relative;
+}
+.FooterTop .form-control {
+	border-radius: 20px;
+}
+.FooterTop .footerButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.FooterTop .footerButton .btn-dark {
+	color: #fff;
+	background-color: #fb8f2c;
+	border-color: #fb8f2c;
+	border-radius: 50%;
+}
+.footerButton .btn-dark:hover {
+	color: #fb8f2c;
+	background-color: transparent;
+	border-color: #fb8f2c;
+	border-radius: 50%;
+}
+.footer .MainFooter {
+    color: #7f7f7f;
+    width: 100%;
+}
+.MainFooter p{
+    font-size: 12px;
+    line-height: 22px;
+}
+.MainFooter ul{
+    display: inline-block;
+}
+.MainFooter ul li{
+    display: inline;
+    padding-right: 40px;
+    font-size: 14px;
+}
+.MainFooter ul li a{
+    color: #7f7f7f;
+}
+.MainFooter ul li a:hover{
+    color: #fb8f2c;
+}
+/* *************************
+               responsive code start here  
+******************************/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .btn-secondary {
+        color: #fff;
+        background-color: #ff9b1a;
+        border-color: #ff9b1a;
+        border-radius: 22px;
+        margin-left: 26px;
+        padding: 6px 12px;
+        font-weight: 401;
+    }
+    .btn-secondary:hover {
+        color: #ff9b1a;
+        background-color: #fff;
+        border-color:  #ff9b1a;
+    }
+    .btn-light {
+        color: #fff;
+        background-color: transparent;
+        border-color: #8e8e8e;
+        border-radius: 20px;
+        padding: 6px 12px;
+    }
+    .btn-light:hover{
+        background-color: #8e8e8e;
+        color: #000;
+    }
+    /* ****************************** header-section **************************************** */
+    .top-header{
+        display: none;
+    }
+    .main-header{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        font-size: 16px;
+        margin-left: 8px;
+        font-weight: 401;
+        float: right;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ff9b1a;
+    }
+    .main-header .navbar-toggler {
+        font-size: 12px;
+        line-height: 0;
+    }
+    .main-header .navbar-toggler {
+        padding: 5px 6px;
+    }
+    .main-header .btn{
+        float: right;
+    }
+    /* ****************************** banner-section **************************************** */
+    .banner-section{
+        width: 100%;
+        background: url("../images/banner.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        background-color: #1f1f25;
+        background-blend-mode: color-dodge;
+        padding: 48px 0px;
+        text-align: center;
+    }
+    .banner-section h1{
+        font-size: 24px;
+        padding-bottom:16px;
+    }
+    .banner-section p{
+        font-size: 14px;
+        padding-bottom:15px ;
+    }
+    /* ****************************CARD section********************************* */
+    .CardSection{
+        width: 100%;
+        text-align: center;
+        padding: 35px 0px;
+    }
+    .CardSection .cardInner{
+        border: 1px solid #e1e1e1;
+        padding: 8px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    .cardInner h5{
+        font-size: 17px;
+        padding-top: 20px;
+        line-height: 27px;
+    }
+    .cardInner p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 20px;
+    }
+    /* ****************************service section********************************* */
+    .ServiceSection{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px 40px;
+    }
+    .ServiceSection p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #929292;
+    }
+    .ServiceSection .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin: auto;
+    }
+    .ServiceSection .CardInner{
+        padding: 20px 0px;
+    }
+    /* **************************** simple section ******************************* */
+
+    .SimpleSection .SomplePhoneSection{
+        background: url("../images/bitcoin-3024279.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        width: 100%;
+        background-color: #00000082;
+        background-blend-mode: color;
+        text-align: center;
+    }
+    .SomplePhoneSection .SimplePhone{
+        display: none;
+    }
+    .SomplePhoneSection .line{
+        background-color: #ff9b1a;
+        width: 12%;
+        height: 2px;
+        margin:auto;
+    
+    }
+    .SomplePhoneSection .SimpleText img{
+        padding-top: 20px;
+    }
+    .SimpleSection .SimpleNumber{
+        width: 100%;
+        background-color: #ff9b1a;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0px 5px;
+    }
+    .SimpleNumber h1{
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .SimpleNumber p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* ********************* octopus section *********************************** */
+    .OctopusSection{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .OctopusSection .OctopusInner{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 80px 0px;
+    }
+    .OctopusSection .OctopusInner .octopusMother{
+        width: 162px;
+    }
+    .OctopusSection .OctopusInner .octopuschild{
+        width: 32px;
+    }
+    .OctopusSection .OctopusChild1{
+        font-size: 10px;
+        position: absolute;
+        top: 7%;
+        left: 20%;
+    }
+    .OctopusSection .OctopusChild2{
+        font-size: 10px;
+        position: absolute;
+        top: 41%;
+        left: 14%;
+    }
+    .OctopusSection .OctopusChild3{
+        font-size: 10px;
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+    }
+    .OctopusSection .OctopusChild4{
+        font-size: 10px;
+        position: absolute;
+        top: 7%;
+        right: 20%;
+    }
+    .OctopusSection .OctopusChild5{
+        font-size: 10px;
+        position: absolute;
+        top: 41%;
+        right: 14%;
+    }
+    .OctopusSection .OctopusChild6{
+        font-size: 10px;
+        position: absolute;
+        bottom: 0%;
+        right: 20%;
+    }
+    /* ********************** our team experts section ******************* */
+    .experts{
+        width: 100%;
+        padding: 20px 0px 40px;
+        text-align: center;
+    }
+    .experts h5{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 20px 0px 0px;
+        color: #1e1e1e;
+    }
+    .experts img{
+        width: 160px;
+        padding: 40px 0px 0px;
+    }
+    /* •••••••••••••••••••••••••• free consultation section ••••••••••••••••••••• */
+    .consultation{
+        width: 100%;
+        background: url("../images/Image.png") center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 40px 0px;
+    }
+    .consultation h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        padding-bottom: 0px !important;
+    }
+    .consultation .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .consultation .form-control {
+        padding: 0.375rem 0.75rem;
+        color: #fff;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 9px;
+        margin-bottom: 10px;
+    }
+    .consultation ::placeholder { 
+        color: #fff;
+    }
+    .consultation .input{
+        padding-top: 10px;
+    }
+    /* –––––––––––––––––––––––––––––– our blogs section ––––––––––––––––––––––––– */
+    .blogs{
+        width: 100%;
+        padding: 70px 0px;
+        text-align: center;
+    }
+    .blogs .cardSection{
+        border: 1px solid #e5e5e5;
+        margin: 40px 0px 0px;
+        border-radius: 11px;
+        position: relative;
+    }
+    .cardSection .PencilIcon{
+        display: none;
+    }
+    /* •••••••••••••••••••••••••• feedback from investors section •••••••••••••• */
+    .feedback{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .feedback h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .feedback p{
+        font-size: 12px;
+        line-height: 24px;
+        color: #7f7f7f;
+        padding: 30px 0px 80px;
+    }
+    .feedback .feedbackIcon{
+        position: absolute;
+        top: 67px;
+        left: 288px;
+    }
+    /* .–––––––––––––––––––––––––––––– footersection –––––––––––––––––––––––––––––– */
+    .footer{
+        width: 100%;
+        border-top: 4px solid #ff9b1a;
+        background-color: #000;
+    }
+    /* .FooterTop */
+    .footer .FooterTop{
+        padding: 80px 0px;
+        text-align: center;
+    }
+    .FooterTop h2{
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding: 22px 0px 18px;
+        color: #fff;
+    }
+    .FooterTop p{
+        padding-top: 8px;
+    }
+    .FooterTop .line{
+        background-color: #ff9b1a;
+        width: 18%;
+        height: 2px;
+        margin:auto;
+    }
+    .FooterTop .footerInput{
+        position: relative;
+        margin-top: 30px;
+    }
+    .footer .MainFooter {
+        color: #7f7f7f;
+        width: 100%;
+        text-align: center;
+    }
+    .MainFooter p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .MainFooter ul{
+        display: inline-block;
+    }
+    .MainFooter ul li{
+        display: inline;
+        padding-right: 22px;
+        font-size: 14px;
+    }
+    .MainFooter ul li a{
+        color: #7f7f7f;
+    }
+    .MainFooter ul li a:hover{
+        color: #fb8f2c;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-secondary {
+        color: #fff;
+        background-color: #ff9b1a;
+        border-color: #ff9b1a;
+        border-radius: 22px;
+        margin-left: 26px;
+        padding: 6px 12px;
+        font-weight: 401;
+    }
+    .btn-secondary:hover {
+        color: #ff9b1a;
+        background-color: #fff;
+        border-color:  #ff9b1a;
+    }
+    .btn-light {
+        color: #fff;
+        background-color: transparent;
+        border-color: #8e8e8e;
+        border-radius: 20px;
+        padding: 6px 12px;
+    }
+    .btn-light:hover{
+        background-color: #8e8e8e;
+        color: #000;
+    }
+    /* ****************************** header-section **************************************** */
+    .top-header{
+        display: none;
+    }
+    .main-header{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        font-size: 16px;
+        margin-left: 8px;
+        font-weight: 401;
+        float: right;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ff9b1a;
+    }
+    .main-header .navbar-toggler {
+        font-size: 12px;
+        line-height: 0;
+    }
+    .main-header .navbar-toggler {
+        padding: 5px 6px;
+    }
+    .main-header .btn{
+        float: right;
+    }
+    /* ****************************** banner-section **************************************** */
+    .banner-section{
+        width: 100%;
+        background: url("../images/banner.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        background-color: #1f1f25;
+        background-blend-mode: color-dodge;
+        padding: 48px 0px;
+        text-align: center;
+    }
+    .banner-section h1{
+        font-size: 24px;
+        padding-bottom:16px;
+    }
+    .banner-section p{
+        font-size: 14px;
+        padding-bottom:15px ;
+    }
+    /* ****************************CARD section********************************* */
+    .CardSection{
+        width: 100%;
+        text-align: center;
+        padding: 35px 0px;
+    }
+    .CardSection .cardInner{
+        border: 1px solid #e1e1e1;
+        padding: 8px;
+        border-radius: 5px;
+        margin: 10px;
+    }
+    .cardInner h5{
+        font-size: 17px;
+        padding-top: 20px;
+        line-height: 27px;
+    }
+    .cardInner p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 20px;
+    }
+    /* ****************************service section********************************* */
+    .ServiceSection{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px 40px;
+    }
+    .ServiceSection p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #929292;
+    }
+    .ServiceSection .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin: auto;
+    }
+    .ServiceSection .CardInner{
+        padding: 20px 0px;
+    }
+    /* **************************** simple section ******************************* */
+
+    .SimpleSection .SomplePhoneSection{
+        background: url("../images/bitcoin-3024279.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        width: 100%;
+        background-color: #00000082;
+        background-blend-mode: color;
+    }
+    .SomplePhoneSection .SimplePhone{
+        display: none;
+    }
+    .SomplePhoneSection .line{
+        background-color: #ff9b1a;
+        width: 12%;
+        height: 2px;
+        text-align: center;
+        margin:0px 0px 30px;
+    
+    }
+    .SomplePhoneSection .SimpleText img{
+        padding-top: 20px;
+    }
+    .SimpleSection .SimpleNumber{
+        width: 100%;
+        background-color: #ff9b1a;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0px 5px;
+    }
+    .SimpleNumber h1{
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .SimpleNumber p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    /* ********************* octopus section *********************************** */
+    .OctopusSection{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .OctopusSection .OctopusInner{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 80px 0px;
+    }
+    .OctopusSection .OctopusInner .octopusMother{
+        width: 162px;
+    }
+    .OctopusSection .OctopusInner .octopuschild{
+        width: 32px;
+    }
+    .OctopusSection .OctopusChild1{
+        font-size: 10px;
+        position: absolute;
+        top: 7%;
+        left: 20%;
+    }
+    .OctopusSection .OctopusChild2{
+        font-size: 10px;
+        position: absolute;
+        top: 41%;
+        left: 14%;
+    }
+    .OctopusSection .OctopusChild3{
+        font-size: 10px;
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+    }
+    .OctopusSection .OctopusChild4{
+        font-size: 10px;
+        position: absolute;
+        top: 7%;
+        right: 20%;
+    }
+    .OctopusSection .OctopusChild5{
+        font-size: 10px;
+        position: absolute;
+        top: 41%;
+        right: 14%;
+    }
+    .OctopusSection .OctopusChild6{
+        font-size: 10px;
+        position: absolute;
+        bottom: 0%;
+        right: 20%;
+    }
+    /* ********************** our team experts section ******************* */
+    .experts{
+        width: 100%;
+        padding: 20px 0px 40px;
+        text-align: center;
+    }
+    .experts h5{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 20px 0px 0px;
+        color: #1e1e1e;
+    }
+    .experts img{
+        width: 160px;
+        padding: 40px 0px 0px;
+    }
+    /* •••••••••••••••••••••••••• free consultation section ••••••••••••••••••••• */
+    .consultation{
+        width: 100%;
+        background: url("../images/Image.png") center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 40px 0px;
+    }
+    .consultation h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        padding-bottom: 0px !important;
+    }
+    .consultation .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .consultation .form-control {
+        padding: 0.375rem 0.75rem;
+        color: #fff;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 9px;
+        margin-bottom: 10px;
+    }
+    .consultation ::placeholder { 
+        color: #fff;
+    }
+    .consultation .input{
+        padding-top: 10px;
+    }
+    /* –––––––––––––––––––––––––––––– our blogs section ––––––––––––––––––––––––– */
+    .blogs{
+        width: 100%;
+        padding: 70px 0px;
+        text-align: center;
+    }
+    .blogs .cardSection{
+        margin: 40px 0px 0px;
+        left: 15px;
+        bottom: 29%;
+    }
+    .cardSection .PencilIcon{
+        display: none;
+    }
+    /* •••••••••••••••••••••••••• feedback from investors section •••••••••••••• */
+    .feedback{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .feedback h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .feedback p{
+        font-size: 12px;
+        line-height: 24px;
+        color: #7f7f7f;
+        padding: 30px 0px 80px;
+    }
+    .feedback .feedbackIcon{
+        position: absolute;
+        top: 67px;
+        left: 288px;
+    }
+    /* .–––––––––––––––––––––––––––––– footersection –––––––––––––––––––––––––––––– */
+    .footer{
+        width: 100%;
+        border-top: 4px solid #ff9b1a;
+        background-color: #000;
+    }
+    /* .FooterTop */
+    .footer .FooterTop{
+        padding: 80px 0px;
+        text-align: center;
+    }
+    .FooterTop h2{
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding: 22px 0px 18px;
+        color: #fff;
+    }
+    .FooterTop p{
+        padding-top: 8px;
+    }
+    .FooterTop .line{
+        background-color: #ff9b1a;
+        width: 18%;
+        height: 2px;
+        margin:auto;
+    }
+    .FooterTop .footerInput{
+        position: relative;
+        margin-top: 30px;
+    }
+    .footer .MainFooter {
+        color: #7f7f7f;
+        width: 100%;
+        text-align: center;
+    }
+    .MainFooter p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .MainFooter ul{
+        display: inline-block;
+    }
+    .MainFooter ul li{
+        display: inline;
+        padding-right: 22px;
+        font-size: 14px;
+    }
+    .MainFooter ul li a{
+        color: #7f7f7f;
+    }
+    .MainFooter ul li a:hover{
+        color: #fb8f2c;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-secondary {
+        color: #fff;
+        background-color: #ff9b1a;
+        border-color: #ff9b1a;
+        border-radius: 22px;
+        margin-left: 26px;
+        padding: 8px 16px;
+        font-weight: 401;
+    }
+    .btn-secondary:hover {
+        color: #ff9b1a;
+        background-color: #fff;
+        border-color:  #ff9b1a;
+    }
+    .btn-light {
+        color: #fff;
+        background-color: transparent;
+        border-color: #8e8e8e;
+        border-radius: 20px;
+        padding: 10px 28px;
+    }
+    .btn-light:hover{
+        background-color: #8e8e8e;
+        color: #000;
+    }
+    /* ****************************** header-section **************************************** */
+    .top-header{
+        display: none;
+    }
+    .main-header{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        font-size: 16px;
+        margin-left: 8px;
+        font-weight: 401;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ff9b1a;
+    }
+    /* ****************************** banner-section **************************************** */
+    .banner-section{
+        width: 100%;
+        background: url("../images/banner.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        background-color: #1f1f25;
+        background-blend-mode: color-dodge;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .banner-section h1{
+        font-size: 44px;
+        padding-bottom: 25px;
+    }
+    .banner-section p{
+        font-size: 14px;
+        padding-bottom:65px ;
+    }
+    .banner-section h6{
+        font-size: 20px;
+    }
+    /* ****************************CARD section********************************* */
+    .CardSection{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .CardSection .cardInner{
+        border: 1px solid #e1e1e1;
+        padding: 30px 30px;
+        border-radius: 5px;
+        margin: 30px;
+    }
+    /* ****************************service section********************************* */
+    .ServiceSection{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px 40px;
+    }
+    .ServiceSection .CardInner{
+        padding: 35px 0px;
+    }
+    /* **************************** simple section ******************************* */
+    .SimpleSection{
+        width: 100%;
+    }
+    .SimpleSection .SomplePhoneSection{
+        background: url("../images/bitcoin-3024279.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        width: 100%;
+        background-color: #00000082;
+        background-blend-mode: color;
+    }
+    .SomplePhoneSection .SimplePhone{
+        display: none;
+    }
+    /* ********************* octopus section *********************************** */
+    .OctopusSection{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .OctopusSection .OctopusInner{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 80px 0px;
+    }
+    .OctopusSection .OctopusInner .octopusMother{
+        width: 288px;
+    }
+    .OctopusSection .OctopusInner .octopuschild{
+        width: 32px;
+    }
+    .OctopusSection .OctopusChild1{
+        position: absolute;
+        top: 7%;
+        left: 16%;
+    }
+    .OctopusSection .OctopusChild2{
+        position: absolute;
+        top: 41%;
+        left: 7%;
+    }
+    .OctopusSection .OctopusChild3{
+        position: absolute;
+        bottom: 4%;
+        left: 18%;
+    }
+    .OctopusSection .OctopusChild4{
+        position: absolute;
+        top: 7%;
+        right: 16%;
+    }
+    .OctopusSection .OctopusChild5{
+        position: absolute;
+        top: 41%;
+        right: 7%;
+    }
+    .OctopusSection .OctopusChild6{
+        position: absolute;
+        bottom: 4%;
+        right: 18%;
+    }
+    /* •••••••••••••••••••••••••• free consultation section ••••••••••••••••••••• */
+    .consultation .input{
+        padding-top: 10px;
+    }
+    /* –––––––––––––––––––––––––––––– our blogs section ––––––––––––––––––––––––– */
+    .blogs{
+        width: 100%;
+        padding: 70px 0px;
+        text-align: center;
+    }
+    .blogs h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+    .blogs h5{
+        font-size: 14px;
+        line-height: 24px;
+        color: #7f7f7f;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 400;
+    }
+    .blogs .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin:auto;
+    }
+    .blogs .cardSection{
+        margin: 40px 0px 0px;
+        position: relative;
+    }
+    .cardSection .PencilIcon{
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
+    /* •••••••••••••••••••••••••• feedback from investors section •••••••••••••• */
+    .feedback{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .feedback h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .feedback p{
+        font-size: 12px;
+        line-height: 24px;
+        color: #7f7f7f;
+        padding: 30px 0px 80px;
+    }
+    .feedback .feedbackIcon{
+        position: absolute;
+        top: 67px;
+        left: 369px;
+    }
+    /* .–––––––––––––––––––––––––––––– footersection –––––––––––––––––––––––––––––– */
+    .footer{
+        width: 100%;
+        border-top: 4px solid #ff9b1a;
+        background-color: #000;
+        text-align: center;
+    }
+    
+    .FooterTop .line{
+        background-color: #ff9b1a;
+        width: 18%;
+        height: 2px;
+        margin: auto;
+    }
+    .MainFooter ul li{
+        display: inline;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .btn-secondary {
+        color: #fff;
+        background-color: #ff9b1a;
+        border-color: #ff9b1a;
+        border-radius: 22px;
+        margin-left: 26px;
+        padding: 8px 16px;
+        font-weight: 401;
+        font-size: 12px;
+    }
+    .btn-secondary:hover {
+        color: #ff9b1a;
+        background-color: #fff;
+        border-color:  #ff9b1a;
+    }
+    .btn-light {
+        color: #fff;
+        background-color: transparent;
+        border-color: #8e8e8e;
+        border-radius: 20px;
+        padding: 10px 28px;
+        font-size: 12px;
+    }
+    .btn-light:hover{
+        background-color: #8e8e8e;
+        color: #000;
+    }
+    /* ****************************** header-section **************************************** */
+    .top-header{
+        width: 100%;
+        background-color: #efefef;
+        padding: 20px 0px;
+    }
+    .top-header .navbar-light .navbar-brand {
+        color: #7f7f7f;
+        font-size: 14px;
+    }
+    .top-header .navbar-light .navbar-nav .nav-link {
+        color: #7f7f7f;
+        font-size: 14px;
+        margin-left: 33px;
+    }
+    .top-header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ff9b1a;
+    }
+    .main-header{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        font-size: 12px;
+        margin-left: 8px;
+        font-weight: 401;
+    }
+    .main-header .navbar-light .navbar-nav .nav-link:hover {
+        color: #ff9b1a;
+    }
+    /* ****************************** banner-section **************************************** */
+    .banner-section{
+        width: 100%;
+        background: url("../images/banner.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        background-color: #1f1f25;
+        background-blend-mode: color-dodge;
+        padding: 170px 0px;
+        text-align: center;
+    }
+    .banner-section h1{
+        font-size: 52px;
+        padding-bottom:65px;
+    }
+    .banner-section p{
+        font-size: 14px;
+        padding-bottom:65px ;
+    }
+    .banner-section h6{
+        font-size: 20px;
+    }
+    /* ****************************CARD section********************************* */
+    .CardSection{
+        width: 100%;
+        text-align: center;
+        padding: 72px 0px;
+    }
+    .CardSection .cardInner{
+        border: 1px solid #e1e1e1;
+        padding: 40px 30px;
+        border-radius: 5px;
+    }
+    .CardSection .cardInner:hover{
+        color: #fff !important;
+        background: linear-gradient(#f0c509f0, #e162028c), url(../images/2.png) center center no-repeat;
+        background-size: cover;
+        background-blend-mode: inherit;
+    }
+    .cardInner img{
+        width: 80px;
+    }
+    .cardInner h5{
+        font-size: 17px;
+        padding-top: 32px;
+        line-height: 27px;
+    }
+    .cardInner p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 32px;
+    }
+    /* ****************************service section********************************* */
+    .ServiceSection{
+        width: 100%;
+        text-align: center;
+        padding: 0px 0px 80px;
+    }
+    .ServiceSection h1{
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        padding-bottom: 14px;
+        color: #2b2b2b;
+    }
+    .ServiceSection h4{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px; 
+        padding: 10px 0px;
+        color: #2b2b2b;
+    }
+    .ServiceSection p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #929292;
+    }
+    .ServiceSection .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin: auto;
+    }
+    .ServiceSection .CardInner{
+        padding: 78px 0px;
+    }
+    /* **************************** simple section ******************************* */
+    .SimpleSection{
+        width: 100%;
+    }
+    .SimpleSection .SomplePhoneSection{
+        background: url("../images/bitcoin-3024279.png") center center no-repeat;
+        background-size: cover;
+        color: #fff;
+        width: 100%;
+        background-color: #00000082;
+        background-blend-mode: color;
+    }
+    .SomplePhoneSection .SimplePhone {
+        position: relative;
+        padding-top: 158px;
+    }
+    .SomplePhoneSection .PhnLogo{
+        position: absolute;
+        top: 68%;
+        left: 20%;
+    }
+    .SomplePhoneSection h4{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        padding-top: 60px;
+    }
+    .SomplePhoneSection .line{
+        background-color: #ff9b1a;
+        width: 12%;
+        height: 2px;
+        margin-bottom: 50px;
+    
+    }
+    .SomplePhoneSection h6{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .SomplePhoneSection p{
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .SimpleSection .SimpleNumber{
+        width: 100%;
+        background-color: #ff9b1a;
+        color: #fff;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .SimpleNumber h1{
+        font-size: 42px;
+        line-height: 38px;
+    }
+    .SimpleNumber p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ********************* octopus section *********************************** */
+    .OctopusSection{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .OctopusSection .OctopusInner{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 80px 0px;
+    }
+    .OctopusSection .OctopusChild1{
+        position: absolute;
+        top: 7%;
+        left: 20%;
+    }
+    .OctopusSection .OctopusChild2{
+        position: absolute;
+        top: 41%;
+        left: 14%;
+    }
+    .OctopusSection .OctopusChild3{
+        position: absolute;
+        bottom: 0%;
+        left: 20%;
+    }
+    .OctopusSection .OctopusChild4{
+        position: absolute;
+        top: 7%;
+        right: 20%;
+    }
+    .OctopusSection .OctopusChild5{
+        position: absolute;
+        top: 41%;
+        right: 14%;
+    }
+    .OctopusSection .OctopusChild6{
+        position: absolute;
+        bottom: 0%;
+        right: 20%;
+    }
+    /* ********************** our team experts section ******************* */
+    .experts{
+        width: 100%;
+        padding: 20px 0px 80px;
+        text-align: center;
+    }
+    .experts h1{
+        font-size:22px;
+        line-height: 32px;
+        color: #2b2b2b;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    .experts p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #7f7f7f;
+        padding-bottom: 15px;
+    }
+    .experts h5{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 36px 0px 8px;
+        color: #1e1e1e;
+    }
+    .experts span{
+        font-size: 14px;
+        line-height: 24px;
+        color: #ff9b1a;
+    }
+    .experts .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin:auto;
+    }
+    .experts img{
+        padding: 80px 0px 0px;
+    }
+    /* •••••••••••••••••••••••••• free consultation section ••••••••••••••••••••• */
+    .consultation{
+        width: 100%;
+        background: url("../images/Image.png") center center no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        padding: 80px 0px;
+    }
+    .consultation h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        padding-bottom: 18px;
+    }
+    .consultation .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin:auto;
+    }
+    .consultation .form-control {
+        padding: 0.375rem 0.75rem;
+        color: #fff;
+        background-color: transparent;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 9px;
+        margin-bottom: 28px;
+    }
+    .consultation ::placeholder { 
+        color: #fff;
+      }
+    .consultation .input{
+        padding-top: 50px;
+    }
+    /* –––––––––––––––––––––––––––––– our blogs section ––––––––––––––––––––––––– */
+    .blogs{
+        width: 100%;
+        padding: 70px 0px;
+    }
+    .blogs h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+    .blogs h5{
+        font-size: 14px;
+        line-height: 24px;
+        color: #7f7f7f;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 400;
+    }
+    .blogs .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin:auto;
+    }
+    .blogs .cardSection{
+        margin: 85px 0px 0px;
+        position: relative;
+    }
+    .cardSection .PencilIcon{
+        position: absolute;
+        bottom: 49%;
+        left: 5%;
+    }
+    .cardSection span{
+        font-size: 12px;
+        line-height: 24px;
+        color: #7f7f7f;
+    }
+    .cardSection h6{
+        font-size: 16px;
+        line-height: 26px;
+        padding: 20px 17px;
+    }
+    .cardSection p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #7f7f7f;
+        padding: 0px 17px 20px;
+    }
+    /* •••••••••••••••••••••••••• feedback from investors section •••••••••••••• */
+    .feedback{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .feedback h1{
+        font-size: 24px;
+        line-height: 34px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .feedback .line{
+        background-color: #ff9b1a;
+        width: 7%;
+        height: 2px;
+        margin:auto;
+    }
+    .feedback p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #7f7f7f;
+        padding: 30px 0px 80px;
+    }
+    .feedback .FeedbackImage{
+        position: relative;
+    }
+    .feedback .feedbackIcon{
+        position: absolute;
+        top: 67px;
+        left: 487px;
+    }
+    .feedback .carousel-control-prev, .carousel-control-next {
+        color: #6e6969;
+        text-align: center;
+    }
+    .feedback .carousel-control-prev:hover, .carousel-control-prev:focus, .carousel-control-next:hover, .carousel-control-next:focus {
+        color: #ff9b1a;
+    }
+    .feedback h5{
+        font-size: 16px;
+        line-height: 26px;
+        padding: 20px 0px 0px;
+    }
+    .feedback h6{
+        text-transform: uppercase;
+        color: #ff9b1a;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* .–––––––––––––––––––––––––––––– footersection –––––––––––––––––––––––––––––– */
+    .footer{
+        width: 100%;
+        border-top: 4px solid #ff9b1a;
+        background-color: #000;
+    }
+    /* .FooterTop */
+    .footer .FooterTop{
+        padding: 80px 0px;
+    }
+    .FooterTop img{
+        padding-bottom: 55px;
+    }
+    .FooterTop p{
+        font-size: 15px;
+        line-height: 25px;
+        color: #7f7f7f;
+        margin-bottom: 6px !important;
+    }
+    .FooterTop p span{
+        margin-right: 12px;
+    }
+    .FooterTop ul{
+        display: inline-block;
+        padding: 0px !important;
+        margin-top: 44px;
+    }
+    .FooterTop ul li{
+        display: inline;
+        border: 1px solid #6e6969;
+        border-radius: 50%;
+        padding: 20px 12px 12px 13px;  
+    }
+    .FooterTop ul li:hover{
+        border: 1px solid #00aced; 
+    }
+    .FooterTop ul li a{
+        color: #7f7f7f; 
+    }
+    .FooterTop ul li a:hover{
+        color: #00aced;
+    }
+    .FooterTop h2{
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        padding-bottom: 18px;
+        color: #fff;
+    }
+    .FooterTop .line{
+        background-color: #ff9b1a;
+        width: 18%;
+        height: 2px;
+        margin-bottom: 40px;
+    }
+    .FooterTop a{
+        color: #7f7f7f;
+    }
+    .FooterTop a:hover{
+        color: #ff9b1a;
+    }
+    .FooterTop .footerInput{
+        position: relative;
+    }
+    .FooterTop .form-control {
+        border-radius: 20px;
+    }
+    .FooterTop .footerButton{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .FooterTop .footerButton .btn-dark {
+        color: #fff;
+        background-color: #fb8f2c;
+        border-color: #fb8f2c;
+        border-radius: 50%;
+    }
+    .footerButton .btn-dark:hover {
+        color: #fb8f2c;
+        background-color: transparent;
+        border-color: #fb8f2c;
+        border-radius: 50%;
+    }
+    .footer .MainFooter {
+        color: #7f7f7f;
+        width: 100%;
+    }
+    .MainFooter p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .MainFooter ul{
+        display: inline-block;
+    }
+    .MainFooter ul li{
+        display: inline;
+        padding-right:16px;
+        font-size: 12px;
+    }
+    .MainFooter ul li a{
+        color: #7f7f7f;
+    }
+    .MainFooter ul li a:hover{
+        color: #fb8f2c;
+    }
+}
